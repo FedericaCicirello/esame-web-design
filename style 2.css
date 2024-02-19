@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    font-size: 12pt;
+    padding: 1rem;
+    display: flex;
+    border-bottom: 5px solid black;
+    justify-content: space-between;
+}
+
+nav {
+    max-width: 100%;
+    height: 30px;
+    margin: auto;
+    margin-top: 8px;
+    justify-content: space-around;
+    
+}
+
+nav ul {
+   
+    margin:0;
+    padding: 10px 0;
+    display:flex;
+    justify-content:space-around;
+    gap: 60px;
+    background-color: black;
+    
+}
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+    text-transform:lowercase;
+    font-weight:lighter;
+    font-size: 20px;
+}
+
+.text a h2 {
+    color: black;
+    text-decoration: none;
+}
+.text a:link  {
+ text-decoration: none;
+}
+
+.text a:visited {
+    text-decoration: none;
+}
+ 
+.text a:active {
+    text-decoration: underline;
+}
+
+.text a:hover h2 {
+    color: hsla(0, 0%, 20%, 0.6);
+    
+    transition: all 0.2s ease-in-out;
+}
+
+main {
+    padding-top: 120px; 
+    max-width: 1000px;
+    margin:auto
+}
+
+.foto h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:16px
+}
+
+.grid .item img {
+    height: 400px;
+    width: 100%;
+    object-fit:cover;
+    
+}
+
+@media (max-width:600px) {
+    .grid {
+    grid-template-columns: repeat(1, 1fr);
+     
+}
+
+
+}
+
+
+
+
+
+footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px 20;
+    font-size: 12pt;
+    background-color: black;
+   
+}
+
+footer p {
+text-align: center;
+font-size: pt;
+}

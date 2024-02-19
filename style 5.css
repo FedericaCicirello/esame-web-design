@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+}
+
+header {
+    margin: 0;
+    font-size: 12pt;
+    padding: 1rem;
+}
+
+nav {
+    max-width: 100%;
+    height: 30px;
+    margin: auto;
+    margin-top: 8px;
+    justify-content: space-around;
+    
+}
+
+nav ul {
+    
+    margin:0;
+    padding: 10px 0;
+    display:flex;
+    justify-content:space-around;
+    gap: 60px;
+    background-color: black;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform:lowercase;
+    font-weight:lighter;
+    font-size: 20px;
+}
+
+section.collezione {
+   text-align: center;
+    margin:0;
+    padding: 2rem;
+    
+    
+}
+section.collezione p {
+    max-width: 50%;
+    text-align:left;
+     margin:auto;
+     padding: 1rem;
+     line-height: 1.1;
+     }
+
+.quadrato {
+    width: 200px; /* Imposta la larghezza del quadrato */
+    height: 200px; /* Imposta l'altezza del quadrato */
+    background-color: white; 
+    margin: auto;
+    margin-top: 60px;
+}

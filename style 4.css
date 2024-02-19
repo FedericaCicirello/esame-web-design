@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+}
+
+header {
+    margin: 0;
+    font-size: 12pt;
+    padding: 1rem;
+}
+
+nav {
+    max-width: 100%;
+    height: 30px;
+    margin: auto;
+    margin-top: 8px;
+    justify-content: space-around;
+    
+}
+
+nav ul {
+    
+    margin:0;
+    padding: 10px 0;
+    display:flex;
+    justify-content:space-around;
+    gap: 60px;
+    background-color: black;
+    
+}
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+    text-transform:lowercase;
+    font-weight:lighter;
+    font-size: 20px;
+}
+
+section.collezione {
+   text-align: center;
+    margin:0;
+    padding: 2rem;
+    
+    
+}
+section.collezione p {
+    max-width: 50%;
+    text-align:left;
+     margin:auto;
+     padding: 1rem;
+     line-height: 1.1;
+     }
+
+
+      
+
+
+     .grid {
+        column-count: 1;
+        column-gap: 16px;
+       
+    }
+    
+    .grid {
+        display:flex;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image {
+        max-width: 100%; 
+        max-height: 100%; 
+    }
+    
+    @media (max-width:600px) {
+        .grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px 20;
+    font-size: 12pt;
+    background-color: black;
+}
+
+footer p {
+text-align: center;
+font-size: 12pt;
+
+}
